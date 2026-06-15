@@ -142,3 +142,17 @@ font-size: 12px;
 color: #232323;
 }    
 }
+/* Core Gameplay */
+.core-section{
+    background-image: url("/img/core/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    height: 1129px;
+}
+@media only screen and (min-width: 1440px) {
+ .core-section{
+    background-image: url("/img/core/desk.png");
+height: 840px;
+}   
+}

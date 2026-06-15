@@ -3,72 +3,74 @@
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    height: 860px;
+height: 812px;
 }
 
 .home-wrapper {
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .home-title {
-    font-family: "Luckiest Guy", sans-serif;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 1.2;
+font-family: "Asap", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.5;
     text-align: center;
-    color: #2e393c;
+    color: #4b4b4b;
 }
 
 .home-text {
-    margin-top: 10px;
-    font-family: "Funnel Display", sans-serif;
-    font-weight: 400;
+    margin-top: 40px;
+font-family: "Asap", sans-serif;
+    font-weight: 300;
     font-size: 24px;
     line-height: 1.5;
     text-align: center;
-    color: #2e393c;
+    color: #232323;
+    width: 303px;
 }
 
 .home-link {
-    margin-top: 31px;
+    margin-top: 296px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #2e393c;
-    border-radius: 8px;
-    width: 333px;
+border-radius: 12px;
+    width: 240px;
     height: 64px;
-    box-shadow: 0 2px 4px 0 rgba(67, 82, 87, 0.4);
-    background: linear-gradient(180deg,
-            #5b7a84 0%,
-            #395963 50%,
-            #243c44 100%);
+    box-shadow: 0 2px 2px 0 rgba(247, 161, 61, 0.3), inset 0 4px 8px 2px rgba(245, 245, 245, 0.3);
+background: linear-gradient(180deg,
+            #d85ad8 0%,
+            #b336b3 50%,
+            #8e228e 100%);
     transition: background 0.3s ease-in-out;
 }
 
 .home-link:hover {
-    background: linear-gradient(90deg, #2e393c 0%, #395963 100%);
+background: linear-gradient(180deg, #b35eb3 0%, #b336b3 100%);
 }
 
 @media only screen and (min-width: 1440px) {
     .home-section {
         background-image: url("/img/home/desk.png");
-        height: 1063px;
+height: 810px;
     }
 
     .home-wrapper {
-        margin-top: 24px;
+        margin-top: 58px;
     }
 
     .home-title {
-        font-size: 64px;
+font-size: 56px;
     }
-
+.home-text {
+    margin-top: 32px;
+width: 100%;
+}
     .home-link {
-        margin-top: 40px;
-        width: 240px;
-        height: 64px;
+        margin-top: 64px;
     }
 }

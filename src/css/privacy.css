@@ -1,0 +1,97 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./main.css');
+@import url('./footer.css');
+
+
+
+
+.background {
+    text-align: left;
+    font-size: 14px;
+}
+
+.privacy-title {
+font-family: "Asap", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4b4b4b;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Asap", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #4b4b4b;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Asap", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #e8e7f5;
+    text-transform: uppercase;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 16px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1439px) {
+    .privacy-title {
+        font-size: 48px;
+    }
+
+    .policy-container {
+        padding-left: 223px;
+        padding-right: 223px;
+    }
+
+}

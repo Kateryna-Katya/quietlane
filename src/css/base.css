@@ -21,6 +21,7 @@ border-bottom: 1px solid #c1b7ac;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 h3{
   font-family: "Asap", sans-serif;
@@ -41,4 +42,9 @@ h4{
     text-align: center;
     color: #c1b7ac;
     margin-bottom: 48px;
+}
+@media only screen and (min-width: 1440px) {
+.title-container {
+    padding: 80px 191px 16px;
+  }
 }

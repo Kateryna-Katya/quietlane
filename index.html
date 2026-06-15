@@ -2,55 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/test/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/test/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/test/assets/styles-X9THPhCB.css">
+  <link rel="icon" type="image/png" href="/quietlane/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Asap:ital,wght@0,100..900;1,100..900&family=Funnel+Display:wght@300..800&family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet">
+    <title>Merge Dinosaurs.</title>
+    <script type="module" crossorigin src="/quietlane/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/quietlane/assets/styles-LyDVeWm6.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container">
+        <div class="home-wrapper">
+            <h1 class="home-title">Merge Crops. Build Your Farm.</h1>
+            <p class="home-text">Grow more with every merge – from small plots to a full harvest.</p>
+            <a class="home-link" href="https://play.google.com/store/apps/details?id=app.retro.dinomerge&hl=en&gl=us">
+                <img src="data:image/png;base64,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" alt="google play" loading="lazy">
+            </a>
+        </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>

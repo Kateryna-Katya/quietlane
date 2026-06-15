@@ -94,3 +94,51 @@ width: 100%;
     width: 100%;
 }
 }
+/* How To Play */
+.how-section{
+background: #e5e5e5;
+}
+.how-subtitle{
+    margin-bottom: 64px;
+}
+.how-swiper .swiper-wrapper{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.how-swiper .swiper-slide{
+border-radius: 12px;
+    padding: 16px;
+    width: 280px;
+    height: 419px;
+box-shadow: 0 4px 4px 0 rgba(75, 75, 75, 0.2);
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.how-slide-title{
+    margin-top: 24px;
+}
+.how-slide-text{
+   margin-top: 8px;
+font-size: 12px;
+color: #232323;
+}
+@media only screen and (min-width: 1440px) {
+.how-swiper .swiper-wrapper{
+justify-content: center;
+gap: 32px;
+}
+.how-swiper .swiper-slide{
+width: 210px;
+    height: 334px;
+}
+.how-slide-title{
+    margin-top: 24px;
+}
+.how-slide-text{
+   margin-top: 8px;
+font-size: 12px;
+color: #232323;
+}    
+}

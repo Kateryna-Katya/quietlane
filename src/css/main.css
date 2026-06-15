@@ -1,0 +1,74 @@
+.home-section {
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 860px;
+}
+
+.home-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-title {
+    font-family: "Luckiest Guy", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+    color: #2e393c;
+}
+
+.home-text {
+    margin-top: 10px;
+    font-family: "Funnel Display", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: #2e393c;
+}
+
+.home-link {
+    margin-top: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2e393c;
+    border-radius: 8px;
+    width: 333px;
+    height: 64px;
+    box-shadow: 0 2px 4px 0 rgba(67, 82, 87, 0.4);
+    background: linear-gradient(180deg,
+            #5b7a84 0%,
+            #395963 50%,
+            #243c44 100%);
+    transition: background 0.3s ease-in-out;
+}
+
+.home-link:hover {
+    background: linear-gradient(90deg, #2e393c 0%, #395963 100%);
+}
+
+@media only screen and (min-width: 1440px) {
+    .home-section {
+        background-image: url("/img/home/desk.png");
+        height: 1063px;
+    }
+
+    .home-wrapper {
+        margin-top: 24px;
+    }
+
+    .home-title {
+        font-size: 64px;
+    }
+
+    .home-link {
+        margin-top: 40px;
+        width: 240px;
+        height: 64px;
+    }
+}

@@ -52,7 +52,7 @@ function initGallerySwiper() {
 
     gallerySwiper = new Swiper('.gallery-swiper', {
       modules: [Navigation],
-      slidesPerView: 3.2,
+      slidesPerView: 3.4,
       spaceBetween: 24,
       loop: true,
       navigation: {
